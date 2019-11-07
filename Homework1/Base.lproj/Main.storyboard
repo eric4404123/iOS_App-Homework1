@@ -1,24 +1,957 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5Tn-PB-NPG">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="crayon_1-1.ttf">
+            <string>Nagurigaki-Crayon</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Homework1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lOa-Z7-CKa">
+                                <rect key="frame" x="55" y="394" width="264" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">David Guetta
+Intro.</string>
+                                <fontDescription key="fontDescription" name="Nagurigaki-Crayon" family="Nagurigaki Crayon" pointSize="44"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="huge_avatar" translatesAutoresizingMaskIntoConstraints="NO" id="FTM-Bb-5ns">
+                                <rect key="frame" x="37" y="55" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="150"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9HT-Cr-u7f">
+                                <rect key="frame" x="32" y="515" width="310" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="on3-QX-vTv">
+                                        <rect key="frame" x="0.0" y="0.0" width="700" height="175"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="qbG-34-y1L" userLabel="david">
+                                                <rect key="frame" x="20" y="23" width="137" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="one-more-love-2-album-cover-sticker__84876.1539891613" translatesAutoresizingMaskIntoConstraints="NO" id="giO-JE-eSr" userLabel="david2">
+                                                <rect key="frame" x="172" y="23" width="156" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DAVID_GUETTA_ONE+LOVE-616278" translatesAutoresizingMaskIntoConstraints="NO" id="R9w-A7-c0m">
+                                                <rect key="frame" x="347" y="23" width="157" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="david-guetta-unity-tour" translatesAutoresizingMaskIntoConstraints="NO" id="IGT-gs-7pd">
+                                                <rect key="frame" x="512" y="23" width="169" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <viewLayoutGuide key="safeArea" id="6My-8o-Jng"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="aDd-rO-jlw"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="qbO-zg-Aek"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="700" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="62C-WR-6Kg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="726" y="-584"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="kGt-EK-Qin">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="5Tn-PB-NPG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Kqq-1W-ZIl">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="0t9-KJ-1NR"/>
+                        <segue destination="IdF-Sz-ALG" kind="relationship" relationship="viewControllers" id="ubG-MM-gDl"/>
+                        <segue destination="yCB-TJ-1AR" kind="relationship" relationship="viewControllers" id="Osr-tH-1m3"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZxI-Dl-aeG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-454" y="180"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="OUw-BZ-M11">
+            <objects>
+                <viewController id="jX4-PR-7z1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nvn-x8-1Zm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P92-eG-EIl">
+                                <rect key="frame" x="8" y="93" width="359" height="527"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">皮埃爾·「大衛」·雅姆·庫塔（法語：Pierre "David" James Guetta，1967年11月7日－），出生於巴黎，是法國一位浩室唱片騎師及音樂製作人。
+
+庫塔在1980年至1990年代原於夜店擔任DJ，2001年創立Gum Productions唱片公司並於隔年發行首張專輯《再愛多一點》，之後又分別於2004年與2007年發行《轟狂趴踢》與《獨領風騷》兩張專輯，其中還收錄了庫塔的暢銷單曲《Delirious》。
+
+庫塔在2009年發行的專輯《舞動真愛》為他打入了主流市場，收錄的三首歌《真愛奇襲》、《Gettin' Over You》和《Sexy Bitch》更是皆登上英國單曲排行榜的第一名。
+
+2011年的專輯《NOTHING BUT THE BEAT》更是收錄了如《Where Them Girls At》、《Little Bad Girl》、《Without You》、《Titanium》及《Turn Me On》等多首熱門單曲。</string>
+                                <fontDescription key="fontDescription" name="PingFangTC-Medium" family="PingFang TC" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Heb-2X-5Hf">
+                                <rect key="frame" x="8" y="636" width="159" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="舞動真愛" image="play.fill" catalog="system">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="TJR-wf-MvU" kind="show" id="KSg-G8-T0R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ber-vG-mWa">
+                                <rect key="frame" x="175" y="656" width="167" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="舞動全世界" image="play.fill" catalog="system">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fyu-5U-0uT" kind="show" id="iOe-1V-xwK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="EHe-RJ-5FK"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="p92-Ah-uMX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DSV-09-kiH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1668" y="259.35960591133005"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cFr-yO-Rym">
+            <objects>
+                <viewController id="fyu-5U-0uT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eYV-fq-mQo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="專輯簡介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oJJ-MN-wwr">
+                                <rect key="frame" x="122" y="103" width="130" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="舞動全世界(NOTHING BUT THE BEAT)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Udw-SO-Jcm">
+                                <rect key="frame" x="26" y="148" width="322" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wuX-Xy-WMf">
+                                <rect key="frame" x="150" y="236" width="225" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="eI3-wX-niY">
+                                        <rect key="frame" x="-15" y="-829" width="240" height="1800"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="euN-bL-hsA">
+                                                <rect key="frame" x="15" y="828" width="225" height="1779"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">全球百大DJ票選冠軍「大衛庫塔David Guetta」表示：「不管我是為一首電台播放的歌曲創作出一個節奏，或是做一張讓DJ開心的唱片，我總是想到要讓大家跳舞—這是我的優先考量。」這位法國DJ／製作人／歌曲創作者連結了存在於電音舞曲與流行樂之間的隔閡，將酷炫的電音舞曲節奏妝點上迷人的流行樂線條，開創流行電音新世紀！
+
+2011年夏季發行的《Nothing But The Beat》專輯與來自專輯中的單曲在全球寫下270萬張專輯與1400萬張單曲的銷售，席捲包含法國、德國、瑞士、比利時、西班牙、葡萄牙、澳洲排行冠軍在內的全球22國排行榜Top 10，獲得15國頒發白金唱片銷售認證。挾著火紅人氣，2012年推出發燒升級盤《Nothing But The Beat 2.0》。
+
+《Nothing But The Beat 2.0》中，除了與MTV音樂獎肯定的嘻哈時尚咖Nicki Minaj聯手征服全美舞曲榜冠軍與流行單曲榜亞軍的浩室／迪斯可熱歌〈Turn Me On〉；與澳洲音樂獎女歌手Sia攜手佔領英國金榜冠軍在內、共計28國排行榜Top 10的流行／浩室／都會舞曲〈Titanium〉；與七座葛萊美獎喝采的流行巨星Usher稱霸全美流行單曲榜冠軍的浩室／電音勁作〈Without You〉；與流行歌手Chris Brown，紐奧良饒舌巨星Lil Wayne出招的英國舞曲榜第四名單曲〈I Can Only Imagine〉等如雷貫耳的暢銷曲之外，特別追加六首從未發行的錄音作品。
+
+這六首全新收錄的作品包括：與Sia再度合作的流行抒情／電音靚歌〈She Wolf (Falling To Pieces)〉；與葛萊美獎節奏藍調全才歌手Ne-Yo，史上首位兩度同週稱霸全美熱門單榜冠亞軍的嘻哈玩家Akon穿響嘻哈／電音號角的玩樂派對勁作〈Play Hard〉；與創作2009年英國金榜冠軍曲〈When Love Takes Over〉的澳洲雙胞胎姊妹組合Nervo、聯手打造的快樂電音〈In My Head〉；與The White Stripes樂團推崇備至的加拿大雙胞胎姊妹樂團Tegan &amp; Sara合作的飛揚好心情電音佳作〈Every Chance We Get We Run〉…等。此外，David Guetta也獻上他與曾經替Madonna暢銷曲〈Give Me All Your Luvin’〉操盤混音的荷蘭電音DJ Nicky Romero與Sia，所共同打造席捲包括英國金榜第四名，全美熱門單曲榜第五名等全球24國排行榜Top 10的舞池國歌〈Wild One Two〉，還有他與2012年Ibiza電音秀搭檔—DJ Nicky Romero精彩交鋒的〈Metropolis〉等兩首暢銷曲的全新製作版本。
+
+逼近15億的音樂錄影帶瀏覽人次，3467萬名臉書粉絲，586萬推特追隨者，David Guetta的流行電音持續發燒！</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <viewLayoutGuide key="safeArea" id="aZ7-eB-27z"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="z93-vT-Px9"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="S84-mQ-DZq"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="0.0" height="1800"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="David Guetta (大衛庫塔)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3pH-WJ-Fi4">
+                                <rect key="frame" x="104" y="183" width="160" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xvy-Ad-28G">
+                                <rect key="frame" x="9" y="399" width="358" height="305"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="HMG-Kl-Xjb" kind="embed" id="h0N-au-T3i"/>
+                                </connections>
+                            </containerView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="uiS-pw-iV1">
+                                <rect key="frame" x="16" y="236" width="132" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ckO-xl-sJJ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gDV-PR-eL2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YeD-8c-Tmb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3402.4000000000001" y="402.70935960591135"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="34z-kj-bmd">
+            <objects>
+                <tableViewController id="HMG-Kl-Xjb" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="E2v-ki-vO0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <sections>
+                            <tableViewSection id="poI-tf-tid">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="59" id="cNp-Aq-0wg">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="59"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cNp-Aq-0wg" id="fdg-E4-bAR">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Where Them Girls At" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GfA-9z-Ngp">
+                                                    <rect key="frame" x="16" y="19" width="214" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="59" id="7j3-5v-7YI">
+                                        <rect key="frame" x="0.0" y="87" width="375" height="59"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7j3-5v-7YI" id="5Yf-Lf-uuP">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Little Bad Girl" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="goO-Tj-KSg">
+                                                    <rect key="frame" x="16" y="19" width="139" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="59" id="8Qq-uq-8Xh">
+                                        <rect key="frame" x="0.0" y="146" width="375" height="59"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8Qq-uq-8Xh" id="xqK-We-CX4">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Turn Me On" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwu-sb-R9H">
+                                                    <rect key="frame" x="16" y="19" width="120" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="59" id="RpD-w5-ghS">
+                                        <rect key="frame" x="0.0" y="205" width="375" height="59"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RpD-w5-ghS" id="aH8-cE-OdF">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sweat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70t-9J-VVP">
+                                                    <rect key="frame" x="16" y="19" width="65" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="59" id="F4D-J9-yLs">
+                                        <rect key="frame" x="0.0" y="264" width="375" height="59"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="F4D-J9-yLs" id="vB2-ku-BWx">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I Can Only Imagine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bf5-5f-gXv">
+                                                    <rect key="frame" x="16" y="19" width="195" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="59" id="p5Z-BF-J2x">
+                                        <rect key="frame" x="0.0" y="323" width="375" height="59"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="p5Z-BF-J2x" id="nvx-W0-b9p">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Crank It Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ThX-6e-qlY">
+                                                    <rect key="frame" x="16" y="19" width="117" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="59" id="8jW-hv-Pgd">
+                                        <rect key="frame" x="0.0" y="382" width="375" height="59"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8jW-hv-Pgd" id="gpJ-je-BX4">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I Just Wanna Fuck" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iUG-wb-jcO">
+                                                    <rect key="frame" x="16" y="19" width="188" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="59" id="Nyf-Pe-Ljx">
+                                        <rect key="frame" x="0.0" y="441" width="375" height="59"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Nyf-Pe-Ljx" id="P2b-yB-2Bd">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Night Of Your Life" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6r1-hR-gfz">
+                                                    <rect key="frame" x="16" y="19" width="183" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="59" id="YzA-4w-28E">
+                                        <rect key="frame" x="0.0" y="500" width="375" height="59"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YzA-4w-28E" id="bMm-hr-8hm">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Repeat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AIn-e2-jJm">
+                                                    <rect key="frame" x="16" y="19" width="74" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="59" id="lCI-5T-JUe">
+                                        <rect key="frame" x="0.0" y="559" width="375" height="59"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lCI-5T-JUe" id="Pa4-gm-qOg">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Titanium" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Cl-oh-nk1">
+                                                    <rect key="frame" x="16" y="19" width="91" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="59" id="mmM-dr-hRG">
+                                        <rect key="frame" x="0.0" y="618" width="375" height="59"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mmM-dr-hRG" id="9y0-kk-En4">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Where Them Girls At" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zRf-PU-ZKL">
+                                                    <rect key="frame" x="16" y="19" width="214" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="59" id="MYh-j6-UXJ">
+                                        <rect key="frame" x="0.0" y="677" width="375" height="59"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MYh-j6-UXJ" id="Ak1-YP-cEx">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nothing Really Matters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vmr-I7-5vj">
+                                                    <rect key="frame" x="16" y="19" width="235" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="HMG-Kl-Xjb" id="Qp2-OA-eLb"/>
+                            <outlet property="delegate" destination="HMG-Kl-Xjb" id="8VH-re-Vm3"/>
+                        </connections>
+                    </tableView>
+                    <size key="freeformSize" width="375" height="500"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LpB-fc-aOW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4143.1999999999998" y="399.7536945812808"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="npG-Nj-slK">
+            <objects>
+                <viewController id="TJR-wf-MvU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t3U-V5-TbK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="專輯簡介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9h6-GS-Ehi">
+                                <rect key="frame" x="125" y="96" width="124" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="舞動真愛 (One Love)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HX1-On-PVM">
+                                <rect key="frame" x="104" y="148" width="167" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="67189" translatesAutoresizingMaskIntoConstraints="NO" id="wG5-vi-caV">
+                                <rect key="frame" x="5" y="205" width="142" height="136"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Le6-El-HgQ">
+                                <rect key="frame" x="5" y="375" width="366" height="335"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="Ig5-9T-36h" kind="embed" id="0Am-12-u48"/>
+                                </connections>
+                            </containerView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h4h-Y7-MDO">
+                                <rect key="frame" x="149" y="198" width="222" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="d0n-JP-p0q">
+                                        <rect key="frame" x="-6" y="-929" width="234" height="2000"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zeq-3Z-tzy">
+                                                <rect key="frame" x="9" y="957" width="225" height="1980"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">連續十年蟬連法國舞池駐場 DJ 總排名冠軍的酷樂玩家，2009 年最大膽、最美麗的舞曲大碟
+
+
+
+前節奏藍調樂團 Destiny's Child 實力女聲 Kelly Rowland 跨刀單曲〈When Love Takes Over〉蟬連歐美九大排行榜冠軍
+
+Black Eyed Peas團長Will.I.Am.，嘻哈高手Akon，節奏藍調全才 Ne-Yo，嘻哈女傑Estelle…等葛萊美獎贏家強勢助陣
+
+【限量 2CD】超值加贈新輯及三首 Bonus Tracks、共 16 首曲目之連續混音版本！一氣呵成，絕無冷場！全台限量進口、僅作初回發行
+
+
+
+近 20 年來備受國際樂壇矚目的藝人、製作人、混音師與DJ，派對文化中的翹楚，這些頭銜與稱號說明了「大衛庫塔 David Guetta」等同於全球最棒的浩室與舞曲！他的 2007 年經典大作「Love Is Gone」在 YouTube 累積瀏覽次數衝破 3200 萬人次，飆創電音藝人在該網站最高瀏覽次數的紀錄。David Guetta 的 DJ 生涯在 2009 年的夏季來到了另一個顛峰，他與前節奏藍調樂團 Destiny's Child 的實力女聲 Kelly Rowland 所合作的單曲 「When Love Takes Over」在全英單曲榜、Billboard 熱門舞曲點播榜、歐洲熱門單曲榜等全球九大排行榜中，稱霸冠軍！而他為 Black Eyed Peas 所製作的單曲「I Gotta Feeling」，也同樣主宰全美熱門單曲榜冠軍王位，稱呼 David Guetta 為「2009 年流行舞曲界第一至尊」，一點都不誇張！這位酷樂玩家的第四張大碟『舞動真愛 One Love』，將是他對當代流行樂壇與舞池時尚最大膽，最美麗的一次節奏宣言。
+
+
+
+David Guetta 連續十年蟬連法國舞池駐場 DJ 總排名冠軍，同時在 2008 年獲得舞曲界圈選為全球浩室 House DJ 的第一名，他表示：「能夠跟這麼多才華洋溢的藝人合作新輯『One Love』，是非常驚人的經驗，最終成就了一張充滿了當代流行音樂最棒的風格，這將會吸引舞癡與非舞曲樂迷等廣大聽眾的流行專輯。」
+
+
+
+David Guetta 的獨特 DJ 觀點讓『One Love』成為 2009 年風格最多樣、參與藝人陣容最耀眼、滿載著會讓人情不自禁的跟著搖擺，混搭了嘻哈、靈魂樂與電音酷樂等元素的一張專輯。舉例來說，Kelly Rowland 在初次聽到還只有旋律的「When Love Takes Over」這首歌時，隨即潸然淚下。而 Kelly Rowland 的感動，也激勵 David Guetta 的創作，隨後兩人所初次合作的單曲，更締造全英單曲榜冠軍、以及全美熱門舞曲點播榜九週冠軍..等甜美果實！同樣的，Black Eyed Peas 團長 Will.I.Am 在籌備樂團新輯『The E.N.D.』時，也跟 David Guetta 提出製作邀約。</string>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <viewLayoutGuide key="safeArea" id="BPB-2f-pg5"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="tJc-ZW-ZiW"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="iio-tz-SxK"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="0.0" height="2000"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="David Guetta (大衛庫塔)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eW2-DZ-xEl">
+                                <rect key="frame" x="119" y="178" width="136" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="2Ib-to-YWF"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Yzx-86-qnI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xCE-Ze-fb1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2429.5999999999999" y="-260.09852216748772"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="brb-Xp-qJQ">
+            <objects>
+                <tableViewController id="Ig5-9T-36h" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="jCy-6P-XhH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <sections>
+                            <tableViewSection id="TXI-nL-txv">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="53" id="hO1-ft-zFc">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="53"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hO1-ft-zFc" id="fQT-h7-IKA">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="53"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="When Love Takes Over (feat.Kelly Rowland)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5EQ-7B-gMy">
+                                                    <rect key="frame" x="22" y="16" width="331" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="53" id="QDe-JD-u3x">
+                                        <rect key="frame" x="0.0" y="81" width="375" height="53"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QDe-JD-u3x" id="wre-Ir-rWs">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="53"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gettin' Over (feat. Chris Willis)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="plq-cr-ex5">
+                                                    <rect key="frame" x="22" y="16" width="231" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="53" id="rXr-hj-mkH">
+                                        <rect key="frame" x="0.0" y="134" width="375" height="53"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rXr-hj-mkH" id="LI5-8r-Y6U">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="53"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sexy Bitch - Explicit (feat. Akon)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ou3-s4-Ph5">
+                                                    <rect key="frame" x="22" y="16" width="246" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="53" id="GVP-ta-PKY">
+                                        <rect key="frame" x="0.0" y="187" width="375" height="53"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GVP-ta-PKY" id="N0p-Dn-Yxt">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="53"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Memories (feat.Kid Cudi)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9D8-iS-yxi">
+                                                    <rect key="frame" x="22" y="16" width="191" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="53" id="MOq-3N-M4p">
+                                        <rect key="frame" x="0.0" y="240" width="375" height="53"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MOq-3N-M4p" id="gub-iW-5wU">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="53"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="It 's The Way You Love Me (feat. Kelly Rowland)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lXn-zt-8BA">
+                                                    <rect key="frame" x="7" y="16" width="360" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="53" id="DaF-Je-Au6">
+                                        <rect key="frame" x="0.0" y="293" width="375" height="53"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DaF-Je-Au6" id="e8g-Tv-UZR">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="53"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Missing You (feat. Novel)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ml7-Z9-TXe">
+                                                    <rect key="frame" x="22" y="16" width="190" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="53" id="PWp-T4-GSp">
+                                        <rect key="frame" x="0.0" y="346" width="375" height="53"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PWp-T4-GSp" id="RUf-Li-Kbd">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="53"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose (feat. Ne-Yo、Kelly Rowland)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P68-v8-w2g">
+                                                    <rect key="frame" x="22" y="16" width="284" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="53" id="Ttr-qs-omW">
+                                        <rect key="frame" x="0.0" y="399" width="375" height="53"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ttr-qs-omW" id="0v8-Na-fLm">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="53"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z43-P2-RzW">
+                                                    <rect key="frame" x="35" y="6" width="268" height="41"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <string key="text">How Soon Is Now 
+(feat. Dirty South、Julie McKnight)</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="53" id="2Pr-Z5-76p">
+                                        <rect key="frame" x="0.0" y="452" width="375" height="53"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2Pr-Z5-76p" id="1hW-5S-4QX">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="53"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="One Love (feat. Estelle)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMR-mm-MFz">
+                                                    <rect key="frame" x="22" y="16" width="178" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="53" id="VCo-fs-ZUe">
+                                        <rect key="frame" x="0.0" y="505" width="375" height="53"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VCo-fs-ZUe" id="Mbx-yU-Obi">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="53"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I Wanna Go Crazy (feat. Will.I.Am)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UQg-s6-zfl">
+                                                    <rect key="frame" x="22" y="16" width="258" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="53" id="6Fc-NE-ai7">
+                                        <rect key="frame" x="0.0" y="558" width="375" height="53"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6Fc-NE-ai7" id="i3l-cA-UIS">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="53"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sound Of Letting Go (feat. Chris Willis)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSn-Hs-ouA">
+                                                    <rect key="frame" x="22" y="16" width="296" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="53" id="Qw3-mg-Dk6">
+                                        <rect key="frame" x="0.0" y="611" width="375" height="53"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Qw3-mg-Dk6" id="oPC-iP-pwQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="53"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Toyfriend (feat. Wynter Gordon)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOM-5s-0Q1">
+                                                    <rect key="frame" x="22" y="16" width="244" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="53" id="UXv-GM-x9T">
+                                        <rect key="frame" x="0.0" y="664" width="375" height="53"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UXv-GM-x9T" id="NTq-tC-my2">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="53"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="If We Ever (feat. Makeba)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aj4-qw-vLs">
+                                                    <rect key="frame" x="22" y="16" width="193" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="53" id="jGw-Xz-7Uy">
+                                        <rect key="frame" x="0.0" y="717" width="375" height="53"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jGw-Xz-7Uy" id="xSO-Cm-9c2">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="53"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WRl-EP-ZgL">
+                                                    <rect key="frame" x="21" y="4" width="360" height="45"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <string key="text">On The Dancefloor 
+(feat. Will I Am、Apl De Ap)</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="62" id="Rmg-sT-5IQ">
+                                        <rect key="frame" x="0.0" y="770" width="375" height="62"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Rmg-sT-5IQ" id="qhE-9L-eOe">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="62"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3La-cM-yy0">
+                                                    <rect key="frame" x="22" y="16" width="340" height="41"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <string key="text">When Love Takes Over - Blame Remix - Edit 
+(feat. Kelly Rowland)</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="53" id="wPG-hb-szP">
+                                        <rect key="frame" x="0.0" y="832" width="375" height="53"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wPG-hb-szP" id="kJ0-od-CIL">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="53"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="It's Your Life (feat. Chris Willis)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFV-yb-kah">
+                                                    <rect key="frame" x="22" y="16" width="233" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Ig5-9T-36h" id="I3T-Yx-VnJ"/>
+                            <outlet property="delegate" destination="Ig5-9T-36h" id="Py1-4h-09b"/>
+                        </connections>
+                    </tableView>
+                    <size key="freeformSize" width="375" height="500"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f7s-tQ-e6W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3165.5999999999999" y="-260.09852216748772"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="xjK-rP-VtW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IdF-Sz-ALG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="dLy-mH-vhn"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KDJ-Xj-jid">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="jX4-PR-7z1" kind="relationship" relationship="rootViewController" id="L8I-RW-kxv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vmF-ZE-Lx8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="725.60000000000002" y="259.35960591133005"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="84x-39-Kb8">
+            <objects>
+                <tableViewController id="Anv-3M-VGJ" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="nRM-H8-VlB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="65" id="ZXd-L5-AL6">
+                                <rect key="frame" x="0.0" y="28" width="375" height="65"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZXd-L5-AL6" id="8Rd-9b-VFf">
+                                    <rect key="frame" x="0.0" y="0.0" width="348" height="65"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Anv-3M-VGJ" id="uEJ-WL-E3b"/>
+                            <outlet property="delegate" destination="Anv-3M-VGJ" id="pac-0i-g0Y"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="5HP-IC-Q5k"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vHt-i0-Ia2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="725.60000000000002" y="920.68965517241384"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="bx6-dt-OCM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yCB-TJ-1AR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="gdb-bJ-Ci7"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dhP-dE-tbL">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Anv-3M-VGJ" kind="relationship" relationship="rootViewController" id="eGC-e8-sKp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3lr-oL-B2g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-218" y="922"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="67189" width="320" height="320"/>
+        <image name="DAVID_GUETTA_ONE+LOVE-616278" width="500" height="430"/>
+        <image name="david-guetta-unity-tour" width="300" height="300"/>
+        <image name="huge_avatar" width="300" height="300"/>
+        <image name="images" width="225" height="225"/>
+        <image name="one-more-love-2-album-cover-sticker__84876.1539891613" width="1280" height="1280"/>
+        <image name="play.fill" catalog="system" width="58" height="64"/>
+    </resources>
 </document>
