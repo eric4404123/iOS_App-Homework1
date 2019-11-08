@@ -896,30 +896,206 @@ David Guetta 的獨特 DJ 觀點讓『One Love』成為 2009 年風格最多樣�
             </objects>
             <point key="canvasLocation" x="725.60000000000002" y="259.35960591133005"/>
         </scene>
-        <!--Table View Controller-->
+        <!--精選歌曲-->
         <scene sceneID="84x-39-Kb8">
             <objects>
                 <tableViewController id="Anv-3M-VGJ" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="nRM-H8-VlB">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="nRM-H8-VlB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="65" id="ZXd-L5-AL6">
-                                <rect key="frame" x="0.0" y="28" width="375" height="65"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZXd-L5-AL6" id="8Rd-9b-VFf">
-                                    <rect key="frame" x="0.0" y="0.0" width="348" height="65"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
+                        <sections>
+                            <tableViewSection id="dPD-pV-dli">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="65" id="ZXd-L5-AL6">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="65"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZXd-L5-AL6" id="8Rd-9b-VFf">
+                                            <rect key="frame" x="0.0" y="0.0" width="348" height="65"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Where Them Girls At" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZ2-Kl-ubV">
+                                                    <rect key="frame" x="16" y="19" width="188" height="26"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="5Ak-Tl-Qgj" kind="show" id="I0b-1v-SEs"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="65" id="BO8-64-Hfh">
+                                        <rect key="frame" x="0.0" y="93" width="375" height="65"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BO8-64-Hfh" id="f88-VV-pPT">
+                                            <rect key="frame" x="0.0" y="0.0" width="348" height="65"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Little Bad Girl" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0O-zP-dMu">
+                                                    <rect key="frame" x="16" y="19" width="122" height="26"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="3Ir-cy-dfX" kind="show" id="Qdm-Wj-22s"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="65" id="bsf-Ta-x1S">
+                                        <rect key="frame" x="0.0" y="158" width="375" height="65"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bsf-Ta-x1S" id="CqA-xs-FSx">
+                                            <rect key="frame" x="0.0" y="0.0" width="348" height="65"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Without You" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rdh-HH-teJ">
+                                                    <rect key="frame" x="16" y="19" width="112" height="26"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="hCb-BK-qKd" kind="show" id="kVq-dj-OX4"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="65" id="o8G-Vr-kOc">
+                                        <rect key="frame" x="0.0" y="223" width="375" height="65"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="o8G-Vr-kOc" id="Cet-MR-z3V">
+                                            <rect key="frame" x="0.0" y="0.0" width="348" height="65"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I Can Only Imagine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEN-H8-z2W">
+                                                    <rect key="frame" x="16" y="19" width="171" height="26"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Ofo-np-Sq3" kind="show" id="Kn6-ei-uOp"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="65" id="psq-r5-eWo">
+                                        <rect key="frame" x="0.0" y="288" width="375" height="65"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="psq-r5-eWo" id="l9m-vQ-LG7">
+                                            <rect key="frame" x="0.0" y="0.0" width="348" height="65"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Crank It Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGF-et-vyk">
+                                                    <rect key="frame" x="16" y="19" width="103" height="26"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="wmM-Dm-Hgh" kind="show" id="kpg-98-GER"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="65" id="Wqh-DD-V7H">
+                                        <rect key="frame" x="0.0" y="353" width="375" height="65"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Wqh-DD-V7H" id="ZIr-jD-eUJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="348" height="65"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Titanium" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWF-Cp-2ZX">
+                                                    <rect key="frame" x="16" y="19" width="80" height="26"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="jav-zx-MeB" kind="show" id="71v-da-KwI"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="65" id="pbG-3N-vCi">
+                                        <rect key="frame" x="0.0" y="418" width="375" height="65"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pbG-3N-vCi" id="aFs-XO-2rp">
+                                            <rect key="frame" x="0.0" y="0.0" width="348" height="65"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="One Love(feat. Estelle)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mxu-rJ-RIC">
+                                                    <rect key="frame" x="16" y="19" width="205" height="26"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Hgu-5s-agf" kind="show" id="vBH-pd-dzh"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="65" id="AK3-Zm-X7f">
+                                        <rect key="frame" x="0.0" y="483" width="375" height="65"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AK3-Zm-X7f" id="zrB-q4-nR7">
+                                            <rect key="frame" x="0.0" y="0.0" width="348" height="65"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Memories(feat.Kid Cudi)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PKN-Bz-a5z">
+                                                    <rect key="frame" x="16" y="19" width="223" height="26"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="YpC-KB-q3D" kind="show" id="Tn2-FE-dLM"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="65" id="psQ-WU-HcH">
+                                        <rect key="frame" x="0.0" y="548" width="375" height="65"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="psQ-WU-HcH" id="yEW-rD-uQm">
+                                            <rect key="frame" x="0.0" y="0.0" width="348" height="65"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sexy Bitch - Explicit(feat. Akon)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QNF-7K-chd">
+                                                    <rect key="frame" x="16" y="19" width="285" height="26"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="5yp-uc-CEa" kind="show" id="u1A-ym-kFm"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
                         <connections>
                             <outlet property="dataSource" destination="Anv-3M-VGJ" id="uEJ-WL-E3b"/>
                             <outlet property="delegate" destination="Anv-3M-VGJ" id="pac-0i-g0Y"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="5HP-IC-Q5k"/>
+                    <navigationItem key="navigationItem" title="精選歌曲" id="5HP-IC-Q5k"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vHt-i0-Ia2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -943,6 +1119,994 @@ David Guetta 的獨特 DJ 觀點讓『One Love』成為 2009 年風格最多樣�
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3lr-oL-B2g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-218" y="922"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jbv-yk-iUu">
+            <objects>
+                <viewController id="x2V-YB-a22" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eO6-4M-tpb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="pLG-w0-FJf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C6s-al-zkE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2017" y="2517"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ote-Sd-aod">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LYU-U3-sSj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="5Ak-Tl-Qgj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gfo-dE-N2n">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nH0-qU-8Dn">
+                                <rect key="frame" x="37" y="102" width="300" height="612"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="Lfs-gC-IEG">
+                                        <rect key="frame" x="0.0" y="-1033" width="300" height="2700"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vdy-ac-MTZ">
+                                                <rect key="frame" x="16" y="986" width="268" height="2656"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">David Guetta 
+
+Where Them Girls At
+
+作詞：Michael Caren, Jared Lincoln Cotter, Tramar Dillard, David Guetta, Onika Maraj, Juan Carlos Salinas, Oscar Salinas, Giorgio Tuinfort, Sandy Julien Wilhelm
+
+So many girls in here, where do I begin?
+I see this one, I'm 'bout to go in
+Then she said 'I'm here with my friends'
+She got me thinking, and that's when I said
+
+Where them girls at, girls at?
+Where them girls at, girls at?
+Where them girls at, girls at?
+So go get them, we can all be friends
+
+Hey, bring it on baby, all your friends
+You're the shit and I love that body
+You wanna ball, explicit, I swear you're good, I won't tell nobody
+You got a BFF, I wanna see that girl, it's all women invited
+
+Hairdos and nails, that Louie, Chanel all up in the party
+President's in my wallet, no rules I'm 'bout it
+Blow the whistle for the hotties
+I got it, shorty, it's never too much, can't be doing too much
+
+Ten to one of me, I can handle that love
+Outta of my reach, we can all get buzzed
+Holla, 'cause I'm free to whatever, it's no rush
+
+So many boys in here, where do I begin?
+I see this one, I'm 'bout to go in
+Then he said 'I'm here with my friends'
+He got to thinking, and that's when he said
+
+Where them girls at, girls at?
+Where them girls at, girls at?
+Where them girls at, girls at?
+So go get them, we can all be friends
+
+Peebe, Peebe who's Peabo Bryson
+Two years ago I renewed my license
+Anyway, why'd I start my verse like that
+You can suck a dick, you can suck on a ballsack
+
+
+No, no I don't endorse that, p-p-pause that, a-a-abort that
+Just the other day me go a London, saw dat, kids down the street
+Paparazzi, all dat, hey, hey, what can I say?
+Day day da-day day day day
+
+Coming through the club all the girls in the back of me
+This ain't football why the fuck they tryin' tackle me?
+Really, I pick dude at the bar like really
+Looking like he wanna good time like, really
+Said he had a friend for my home girl Lily, Lily, Lily, Lily
+
+So many girls in here where do I begin
+I see this one, I'm 'bout to go in
+Then she said 'I'm here with my friends'
+She got me thinking, and that's when I said
+
+Where them girls at, girls at?
+Where them girls at, girls at?
+Where them girls at, girls at?
+So go get them, we can all be friends
+
+Day day da-day day day day
+Day day da-day day day day
+Day day da-day day day day
+
+Yo, where my girls at uh, hmm, uh
+Yo, where my girls tryna get to jumpin'
+
+So many girls in here, where do I begin?
+I see this one, I'm 'bout to go in
+Then she said 'I'm here with my friends'
+She got me thinking, that's when I said
+
+Where them girls at, girls at?
+Where them girls at, girls at?
+Where them girls at, girls at?
+So go get them, we can all be friends</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <viewLayoutGuide key="safeArea" id="ojK-PE-ve0"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="RbQ-R0-i8c"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="0wo-UY-SuX"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="0.0" height="2700"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="P2f-hI-eNG"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JxJ-24-7cY"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-425" y="1684"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cYr-fb-Ysv">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="58c-hf-sau" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="3Ir-cy-dfX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nsm-PO-9ur">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UDL-lM-mT5">
+                                <rect key="frame" x="37" y="102" width="300" height="635"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="muW-Fe-biR">
+                                        <rect key="frame" x="0.0" y="-1033" width="300" height="2700"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A2P-RP-7RL">
+                                                <rect key="frame" x="16" y="964" width="268" height="2656"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">David Guetta 
+
+Where Them Girls At
+
+作詞：Michael Caren, Jared Lincoln Cotter, Tramar Dillard, David Guetta, Onika Maraj, Juan Carlos Salinas, Oscar Salinas, Giorgio Tuinfort, Sandy Julien Wilhelm
+
+So many girls in here, where do I begin?
+I see this one, I'm 'bout to go in
+Then she said 'I'm here with my friends'
+She got me thinking, and that's when I said
+
+Where them girls at, girls at?
+Where them girls at, girls at?
+Where them girls at, girls at?
+So go get them, we can all be friends
+
+Hey, bring it on baby, all your friends
+You're the shit and I love that body
+You wanna ball, explicit, I swear you're good, I won't tell nobody
+You got a BFF, I wanna see that girl, it's all women invited
+
+Hairdos and nails, that Louie, Chanel all up in the party
+President's in my wallet, no rules I'm 'bout it
+Blow the whistle for the hotties
+I got it, shorty, it's never too much, can't be doing too much
+
+Ten to one of me, I can handle that love
+Outta of my reach, we can all get buzzed
+Holla, 'cause I'm free to whatever, it's no rush
+
+So many boys in here, where do I begin?
+I see this one, I'm 'bout to go in
+Then he said 'I'm here with my friends'
+He got to thinking, and that's when he said
+
+Where them girls at, girls at?
+Where them girls at, girls at?
+Where them girls at, girls at?
+So go get them, we can all be friends
+
+Peebe, Peebe who's Peabo Bryson
+Two years ago I renewed my license
+Anyway, why'd I start my verse like that
+You can suck a dick, you can suck on a ballsack
+
+
+No, no I don't endorse that, p-p-pause that, a-a-abort that
+Just the other day me go a London, saw dat, kids down the street
+Paparazzi, all dat, hey, hey, what can I say?
+Day day da-day day day day
+
+Coming through the club all the girls in the back of me
+This ain't football why the fuck they tryin' tackle me?
+Really, I pick dude at the bar like really
+Looking like he wanna good time like, really
+Said he had a friend for my home girl Lily, Lily, Lily, Lily
+
+So many girls in here where do I begin
+I see this one, I'm 'bout to go in
+Then she said 'I'm here with my friends'
+She got me thinking, and that's when I said
+
+Where them girls at, girls at?
+Where them girls at, girls at?
+Where them girls at, girls at?
+So go get them, we can all be friends
+
+Day day da-day day day day
+Day day da-day day day day
+Day day da-day day day day
+
+Yo, where my girls at uh, hmm, uh
+Yo, where my girls tryna get to jumpin'
+
+So many girls in here, where do I begin?
+I see this one, I'm 'bout to go in
+Then she said 'I'm here with my friends'
+She got me thinking, that's when I said
+
+Where them girls at, girls at?
+Where them girls at, girls at?
+Where them girls at, girls at?
+So go get them, we can all be friends</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <viewLayoutGuide key="safeArea" id="xw8-Op-bcW"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="EnN-oz-hhB"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="wdz-kO-CP6"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="0.0" height="2700"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6i0-8F-AMC"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="azL-WJ-kF6"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="380" y="1684"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Oby-Mx-6jg">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B8f-yu-GI3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="hCb-BK-qKd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2XY-ad-eMI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7oC-Mn-1lu">
+                                <rect key="frame" x="37" y="102" width="300" height="635"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="4xY-si-bzE">
+                                        <rect key="frame" x="0.0" y="-1033" width="300" height="2700"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iab-or-qh6">
+                                                <rect key="frame" x="16" y="201" width="268" height="2656"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">David Guetta 
+
+Without You
+
+I can't win, I can't reign
+I will never win this game without you, without you
+I am lost, I am vain
+I will never be the same without you, without you
+
+I won't run, I won't fly
+I will never make it by without you, without you
+I can't rest, I can't fight
+All I need is you and I, without you, without you
+
+Oh, oh, oh
+You, you, you
+Without you, you, you
+Without you
+
+Can't erase so I'll take blame
+But I can't accept that we're estranged without you, without you
+I can't quit now, this can't be right
+
+I can't take one more sleepless night without you, without you
+
+I won't soar, I won't climb
+If you're not here, I'm paralyzed without you, without you
+I can't look, I'm so blind
+Lost my heart, I lost my mind, without you, without you
+
+Oh, oh, oh
+You, you, you
+Without you, you, you
+Without you
+
+I am lost, I am vain
+I will never be the same without you, without you
+Without you</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <viewLayoutGuide key="safeArea" id="29Y-4Q-iBv"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="85L-A0-Jts"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Pz5-TT-vAX"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="0.0" height="2700"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="3i5-FH-S0K"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="b2c-8c-tiE"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1135" y="1684"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hzk-WP-6tJ">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hs8-ah-6Lu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="Hgu-5s-agf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p7n-El-nqm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mqS-V9-MU8">
+                                <rect key="frame" x="37" y="102" width="300" height="635"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="tS1-J9-2Kd">
+                                        <rect key="frame" x="0.0" y="-1033" width="300" height="2700"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5PV-2D-6c7">
+                                                <rect key="frame" x="16" y="555" width="268" height="2656"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">David Guetta 
+
+One Love(feat. Estelle)
+
+Can anybody help me im outta plans guess I left my world in somebody's hands
+I don't like to hurt but but everyone gets weak someone to rely on that's what I really need
+
+Now here we stay its all that were worth I've been thru the pain
+And been dragged thru the dirt whatever they tell you were bigger than words
+I've been where your standing I know how it hurts let this be a song now
+And this be a day and we stand together well be okay
+Because were survivors were making it work expecting the best when they hope for the worst
+
+One love - this is the way we found
+One love - even though they'll let you down
+One love -nobody's perfect now
+One love -don't let that hold u down
+One love - lets stick together now
+One love -we got to stand our ground
+One love - its easy to believe in
+One love - believe in u and me
+Onee loveeeeeeeee
+
+Now I cud try and fix this all by myself but I know it'd turn out better
+If u help no one likes to hurt but but everyone gets weak someone to rely on that's what everybody needs
+
+
+Now here we stay its all that were worth I've been thru
+The pain and been dragged thru the dirt whatever they tell you were bigger
+Than words I've been where your standing I know how it hurts let
+This be a song now and this be our day and we stand together well be okay
+Because where survivors were making
+It work expecting the best when they hope for the worst
+
+One love - this is the way we found
+One love - even though they'll let you down
+One love -nobody's perfect now
+One love -don't let that hold u down
+One love - lets stick together now
+One love -we got to stand our ground
+One love - its easy to believe in
+One love - believe in u and me
+Onee loveeeeeeeee, its oneee loveeee,
+Im here to tell you its one love, oh
+One loveeeee, said its one loveeee
+Sing with meee one loveee,
+One love to be oh that's all we need
+One love.
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <viewLayoutGuide key="safeArea" id="8JW-Nc-O6c"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="9df-jO-psa"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="hjr-Mg-xiF"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="0.0" height="2700"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="JrM-vr-XGI"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SYS-Mj-UPB"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="3910" y="1684"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BGB-aw-i7n">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fUl-EB-vaw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="Ofo-np-Sq3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iU7-NO-44U">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pMU-X1-bpw">
+                                <rect key="frame" x="37" y="102" width="300" height="635"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="3Xw-BB-7n8">
+                                        <rect key="frame" x="0.0" y="-1033" width="300" height="2700"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dbk-L6-h4D">
+                                                <rect key="frame" x="16" y="628" width="268" height="2656"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">David Guetta 
+
+I Can Only Imagine
+
+Where you been? Where you been all my life?
+Baby, it's a sin the way you look in that light
+It's obvious that I want something from you
+You know what, what I wanna do, do, do
+
+Every time it would bring me to life
+I could only imagine, only imagine what it'd be like
+Oh, every time, it would bring me to life
+I could only imagine, only imagine what it'd be like
+
+What it'd be like
+What it'd be like, like, like
+What it'd be like, like, like
+
+I saw you from afar, thought I'd say, wassup?
+You can tell me your name when we breaking up
+They call me Tunechi, I'm good, I'm Gucci
+Now you can kiss your old dude goodbye, smooches
+
+You're a beast, y-you're a beauty
+Man, I bet somebody done gave cupid an uzi, shoot me
+You're a firework, brighter in the dark
+So let's turn off the lights and give me that spark
+
+Every time it would bring me to life
+I could only imagine, only imagine what it'd be like
+Oh, every time, it would bring me to life
+I could only imagine, only imagine what it'd be like
+
+What it'd be like
+What it'd be like, like, like
+
+What it'd be like, like, like, like, like
+
+I want to let her touch me
+One touch will feel free
+(You bring me to life)
+
+I want to feel free
+So I can finally be
+(If you kiss me)
+
+So I can finally be
+(Yeah)
+So I can finally see
+(Kiss me now)
+So I can finally see
+(Kiss me now)
+
+I saw you from afar, thought I'd say, wassup?
+You can tell me your name when we breaking up
+They call me Tunechi, I'm good, I'm Gucci
+Now you can kiss your old dude goodbye, smooches
+
+You're a beast, y-you're a beauty
+Man, I bet somebody done gave cupid an uzi, shoot me
+You're a firework, brighter in the dark
+So let's turn off the lights and give me that spark
+
+What it'd be like</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <viewLayoutGuide key="safeArea" id="Ejg-Qd-7lb"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="5L7-lV-d7g"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="1tP-7M-8bP"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="0.0" height="2700"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Rze-qf-T50"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Fvk-e4-11j"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1836" y="1684"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zjs-lY-b4y">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xMQ-Ir-GMS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="wmM-Dm-Hgh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WUm-5k-JRK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gn2-SW-Et9">
+                                <rect key="frame" x="37" y="102" width="300" height="635"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="fBW-bQ-jqt">
+                                        <rect key="frame" x="0.0" y="-1033" width="300" height="2700"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2G0-Ck-rUE">
+                                                <rect key="frame" x="16" y="681" width="268" height="2656"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">David Guetta 
+
+Crank It Up
+
+[feat. Akon]
+
+She's the keys to my starter in my automatic car
+Yeah she make me wanna go harder and she always lift the boom
+When she keep that spotlight glowing cause she is a superstar
+Errbody know this is girl when she step up in the place with an...
+
+The way she crank it up
+The way she crank it up
+The way she crank it up
+The way she cranks it up
+The way she crank it up
+The way she crank it up
+The way she crank it up
+The way she cranks it up
+
+She might not be the one you see in a magazine
+She might not be the one you fantasize in your dream
+She's the only girl left in the world that can guarantee what you need tonight
+
+With my Gs and we riding in a magnificent car
+And we rolling with the baddest chicks and you won't see a flaw
+Booty riding up so perfect, badder than my audemar
+
+Watch her crank it up
+The way she crank it up
+The way she crank it up
+The way she cranks it up
+The way she crank it up
+The way she crank it up
+The way she crank it up
+The way she cranks it up
+
+She might not be the one you see in a magazine
+She might not be the one you fantasize in your dream
+She's the only girl left in the world that can guarantee what you need tonight
+
+With my Gs and we riding in a magnificent car
+And we rolling with the baddest chicks and you won't see a flaw
+Booty riding up so perfect, badder than my audemar
+
+The way she crank it up
+The way she crank it up
+The way she crank it up
+The way she cranks it up
+The way she crank it up
+The way she crank it up
+The way she crank it up
+The way she cranks it up
+
+She's trying to make me fall in love again, yeah
+The way she moving I can tell you she's almost there, yeah
+
+She might not be the one you see in a magazine
+She might not be the one you fantasize in your dream
+She's the only girl left in the world that can guarantee what you need tonight
+
+The way she crank it up
+The way she crank it up
+The way she crank it up
+The way she cranks it up
+The way she crank it up
+The way she crank it up
+The way she crank it up
+The way she cranks it up</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <viewLayoutGuide key="safeArea" id="AIq-WG-fsq"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="aPq-7I-zJV"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="EIv-Cg-Xev"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="0.0" height="2700"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="N8a-ff-qac"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Paa-Of-PAD"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2495" y="1684"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5rT-tH-P3A">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jRq-pK-96i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="jav-zx-MeB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cds-3a-p08">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fdf-IB-ajk">
+                                <rect key="frame" x="37" y="102" width="300" height="635"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="Q9P-Hn-vJH">
+                                        <rect key="frame" x="0.0" y="-1033" width="300" height="2700"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AIp-w6-EP4">
+                                                <rect key="frame" x="16" y="307" width="268" height="2656"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">David Guetta 
+
+Titanium
+
+You shout it out, but I can't hear a word you say
+I'm talking loud, not saying much
+I'm criticized, but all your bullets ricochet
+You shoot me down, but I get up
+
+I'm bulletproof, nothing to lose
+Fire away, fire away
+Ricochet, you take your aim
+Fire away, fire away
+
+You shoot me down
+But I won't fall, I am titanium
+You shoot me down
+But I won't fall, I am titanium, I am titanium
+
+Cut me down, but it's you who had further to fall
+Ghost town, haunted love, Raise your voice
+Sticks and stones may break my bones
+I'm talking loud, not saying much
+
+I'm bulletproof, nothing to lose
+Fire away, fire away
+
+Ricochet, you take your aim
+Fire away, fire away
+
+You shoot me down
+But I won't fall, I am titanium
+You shoot me down
+But I won't fall, I am titanium, I am titanium
+
+Stone-hard, machine guns, firing at the ones who run
+Stone-hard, those bulletproof guns
+
+You shoot me down
+But I won't fall, I am titanium
+You shoot me down
+But I won't fall, I am titanium
+
+You shoot me down
+But I won't fall, I am titanium
+You shoot me down
+But I won't fall, I am titanium, I am titanium</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <viewLayoutGuide key="safeArea" id="Lb8-jJ-Lc2"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="6YV-J9-Y4U"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="NI9-49-Ycg"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="0.0" height="2700"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="U8N-Rb-EsA"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fpu-35-5As"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="3228" y="1684"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rxb-Vw-Gnr">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mHO-Eo-KxH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="YpC-KB-q3D" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y81-Hy-lJm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hpS-kF-A6I">
+                                <rect key="frame" x="37" y="102" width="300" height="635"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="F2z-Cq-KJ9">
+                                        <rect key="frame" x="0.0" y="-1033" width="300" height="2700"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ev-jF-hTc">
+                                                <rect key="frame" x="16" y="470" width="268" height="2656"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">David Guetta 
+
+Memories(feat.Kid Cudi)
+
+(yeah yeah)
+
+All the crazy shit I did tonight
+those will be the best memories
+I just wanna let it go for the night
+That would be the best therapy for me
+All the crazy shit I did tonight
+those will be the best memories
+I just wanna let it go for the night
+That would be the best therapy for me
+
+hey hey
+(ooh ooh ooh ooh oooh oooh)
+
+yeah yeah
+(ooh ooh ooh ooh oooh oooh)
+yeah yeah
+(ooh ooh ooh ooh oooh oooh)
+yeah yeah
+(ooh ooh ooh ooh oooh oooh)
+yeah yeah
+(ooh ooh ooh ooh oooh oooh)
+
+All the crazy shit I did tonight
+those will be the best memories
+I just wanna let it go for the night
+That would be the best therapy for me
+All the crazy shit I did tonight
+those will be the best memories
+I just wanna let it go for the night
+That would be the best therapy for me
+
+hey hey
+
+(ooh ooh ooh ooh oooh oooh)
+
+yeah yeah
+(ooh ooh ooh ooh oooh oooh)
+yeah yeah
+(ooh ooh ooh ooh oooh oooh)
+yeah yeah
+(ooh ooh ooh ooh oooh oooh)
+yeah yeah
+(ooh ooh ooh ooh oooh oooh)
+
+It's gettin late but I don't mind
+It's gettin late but I don't mind
+It's gettin late but I don't mind
+It's gettin late but I don't mind
+It's gettin late but I don't mind
+It's gettin late but I don't mind
+It's gettin late but I don't mind
+It's gettin late but I don't mind
+
+hey hey
+(ooh ooh ooh ooh oooh oooh)
+
+yeah yeah
+(ooh ooh ooh ooh oooh oooh)
+yeah yeah
+(ooh ooh ooh ooh oooh oooh)
+yeah yeah
+(ooh ooh ooh ooh oooh oooh)
+yeah yeah
+(ooh ooh ooh ooh oooh oooh)
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <viewLayoutGuide key="safeArea" id="J5P-T0-aPs"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="I5w-ur-HDb"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="iwh-vw-5r0"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="0.0" height="2700"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="GzB-Of-Pkl"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OaJ-z7-6Kj"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="4620" y="1684"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5HQ-ps-cNP">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yOg-LP-IaU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="5yp-uc-CEa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rps-Zu-vlx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eCK-ty-HPT">
+                                <rect key="frame" x="37" y="102" width="300" height="635"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="3SA-C8-tnE">
+                                        <rect key="frame" x="0.0" y="-1033" width="300" height="2700"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JQR-J9-DY7">
+                                                <rect key="frame" x="16" y="593" width="268" height="2656"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">David Guetta 
+
+Sexy Bitch - Explicit(feat. Akon)
+
+Yes i can see her
+Cause every girl in here wanna be her
+Oh she's a diva, they feel the same and i wanna meet her
+
+They say she low down
+It's just a rumor and i don't believe em
+They say she needs to slow down
+The baddest thing around town
+
+She's nothing like a girl you've ever seen before
+Nothing you can compare to your neighborhood hoe
+I'm trying to find the words to describe this girl
+Without being disrespectful
+
+The way that booty moving i can't take no more
+I have to stop what i'm doing so i can put on my clothes
+I'm trying to find the words to describe this girl
+Without being disrespectful
+Damn girl
+
+Damn girl you'se a sexy bitch, a sexy bitch, a sexy bitch
+Damn girl you'se a sexy bitch, damn girl
+Damn girl you'se a sexy bitch, a sexy bitch, a sexy bitch
+Damn girl you'se a sexy bitch, damn girlyes
+Yes I can see her
+Cause every girl in here wanna be her
+Oh she's a diva, they feel the same and i wanna meet her
+更多更詳盡歌詞 在 ※ Mojim.com　魔鏡歌詞網 
+
+They say she low down
+It's just a rumor and i don't believe em'
+They say she needs to slow down
+The baddest thing around town
+
+She's nothing like a girl you've ever seen before
+Nothing you can compare to your neighborhood hoe
+I'm trying to find the words to describe this girl
+Without being disrespectful
+
+The way that booty moving i can't take no more
+I have to stop what i'm doing so i can put on my clothes
+I'm trying to find the words to describe this girl
+Without being disrespectful
+Damn girl
+Damn girl you'se a sexy bitch, a sexy bitch, a sexy bitch
+Damn girl you'se a sexy bitch, damn girl
+Damn girl you'se a sexy bitch, a sexy bitch, a sexy bitch
+Damn girl you'se a sexy bitch, damn girl
+Damn girl you'se a sexy bitch, a sexy bitch, a sexy bitch
+Damn girl you'se a sexy bitch, damn girl
+Damn girl you'se a sexy bitch, a sexy bitch, a sexy bitch
+Damn girl you'se a sexy bitch, damn you'se a sexy bitch</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <viewLayoutGuide key="safeArea" id="HNZ-cH-pow"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="bdC-E7-5lq"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="0Cu-XP-fyk"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="0.0" height="2700"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="16h-Ws-8Gw"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PjB-z0-1Zj"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="5326" y="1684"/>
         </scene>
     </scenes>
     <resources>
