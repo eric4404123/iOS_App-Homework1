@@ -12,7 +12,7 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Item-->
+        <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Homework1" customModuleProvider="target" sceneMemberID="viewController">
@@ -79,7 +79,7 @@ Intro.</string>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="62C-WR-6Kg"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="62C-WR-6Kg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -877,11 +877,11 @@ David Guetta 的獨特 DJ 觀點讓『One Love』成為 2009 年風格最多樣�
             </objects>
             <point key="canvasLocation" x="3165.5999999999999" y="-260.09852216748772"/>
         </scene>
-        <!--Item-->
+        <!--Intro.-->
         <scene sceneID="xjK-rP-VtW">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IdF-Sz-ALG" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="dLy-mH-vhn"/>
+                    <tabBarItem key="tabBarItem" title="Intro." image="pencil" catalog="system" id="dLy-mH-vhn"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KDJ-Xj-jid">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
@@ -1101,11 +1101,11 @@ David Guetta 的獨特 DJ 觀點讓『One Love』成為 2009 年風格最多樣�
             </objects>
             <point key="canvasLocation" x="725.60000000000002" y="920.68965517241384"/>
         </scene>
-        <!--Item-->
+        <!--精選歌曲-->
         <scene sceneID="bx6-dt-OCM">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yCB-TJ-1AR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="gdb-bJ-Ci7"/>
+                    <tabBarItem key="tabBarItem" title="精選歌曲" image="play.circle.fill" catalog="system" id="gdb-bJ-Ci7"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dhP-dE-tbL">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
@@ -1138,7 +1138,6 @@ David Guetta 的獨特 DJ 觀點讓『One Love』成為 2009 年風格最多樣�
         <!--View Controller-->
         <scene sceneID="ote-Sd-aod">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LYU-U3-sSj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="5Ak-Tl-Qgj" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gfo-dE-N2n">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
@@ -1155,7 +1154,7 @@ David Guetta 的獨特 DJ 觀點讓『One Love』成為 2009 年風格最多樣�
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vdy-ac-MTZ">
                                                 <rect key="frame" x="16" y="986" width="268" height="2656"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">David Guetta 
+                                                <string key="text">David Guetta 
 
 Where Them Girls At
 
@@ -1237,7 +1236,7 @@ She got me thinking, that's when I said
 Where them girls at, girls at?
 Where them girls at, girls at?
 Where them girls at, girls at?
-So go get them, we can all be friends</mutableString>
+So go get them, we can all be friends</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1261,13 +1260,13 @@ So go get them, we can all be friends</mutableString>
                     </view>
                     <navigationItem key="navigationItem" id="JxJ-24-7cY"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LYU-U3-sSj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-425" y="1684"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cYr-fb-Ysv">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="58c-hf-sau" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="3Ir-cy-dfX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nsm-PO-9ur">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
@@ -1284,7 +1283,7 @@ So go get them, we can all be friends</mutableString>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A2P-RP-7RL">
                                                 <rect key="frame" x="16" y="964" width="268" height="2656"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">David Guetta 
+                                                <string key="text">David Guetta 
 
 Where Them Girls At
 
@@ -1366,7 +1365,7 @@ She got me thinking, that's when I said
 Where them girls at, girls at?
 Where them girls at, girls at?
 Where them girls at, girls at?
-So go get them, we can all be friends</mutableString>
+So go get them, we can all be friends</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1390,13 +1389,13 @@ So go get them, we can all be friends</mutableString>
                     </view>
                     <navigationItem key="navigationItem" id="azL-WJ-kF6"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="58c-hf-sau" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="380" y="1684"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Oby-Mx-6jg">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="B8f-yu-GI3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="hCb-BK-qKd" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2XY-ad-eMI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
@@ -1413,7 +1412,7 @@ So go get them, we can all be friends</mutableString>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iab-or-qh6">
                                                 <rect key="frame" x="16" y="201" width="268" height="2656"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">David Guetta 
+                                                <string key="text">David Guetta 
 
 Without You
 
@@ -1450,7 +1449,7 @@ Without you
 
 I am lost, I am vain
 I will never be the same without you, without you
-Without you</mutableString>
+Without you</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1474,13 +1473,13 @@ Without you</mutableString>
                     </view>
                     <navigationItem key="navigationItem" id="b2c-8c-tiE"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B8f-yu-GI3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1135" y="1684"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hzk-WP-6tJ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hs8-ah-6Lu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="Hgu-5s-agf" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p7n-El-nqm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
@@ -1497,7 +1496,7 @@ Without you</mutableString>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5PV-2D-6c7">
                                                 <rect key="frame" x="16" y="555" width="268" height="2656"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">David Guetta 
+                                                <string key="text">David Guetta 
 
 One Love(feat. Estelle)
 
@@ -1545,7 +1544,7 @@ One loveeeee, said its one loveeee
 Sing with meee one loveee,
 One love to be oh that's all we need
 One love.
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1569,13 +1568,13 @@ One love.
                     </view>
                     <navigationItem key="navigationItem" id="SYS-Mj-UPB"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hs8-ah-6Lu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3910" y="1684"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BGB-aw-i7n">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fUl-EB-vaw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="Ofo-np-Sq3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iU7-NO-44U">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
@@ -1592,7 +1591,7 @@ One love.
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dbk-L6-h4D">
                                                 <rect key="frame" x="16" y="628" width="268" height="2656"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">David Guetta 
+                                                <string key="text">David Guetta 
 
 I Can Only Imagine
 
@@ -1655,7 +1654,7 @@ Man, I bet somebody done gave cupid an uzi, shoot me
 You're a firework, brighter in the dark
 So let's turn off the lights and give me that spark
 
-What it'd be like</mutableString>
+What it'd be like</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1679,13 +1678,13 @@ What it'd be like</mutableString>
                     </view>
                     <navigationItem key="navigationItem" id="Fvk-e4-11j"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fUl-EB-vaw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1836" y="1684"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="zjs-lY-b4y">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xMQ-Ir-GMS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="wmM-Dm-Hgh" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WUm-5k-JRK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
@@ -1702,7 +1701,7 @@ What it'd be like</mutableString>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2G0-Ck-rUE">
                                                 <rect key="frame" x="16" y="681" width="268" height="2656"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">David Guetta 
+                                                <string key="text">David Guetta 
 
 Crank It Up
 
@@ -1770,7 +1769,7 @@ The way she cranks it up
 The way she crank it up
 The way she crank it up
 The way she crank it up
-The way she cranks it up</mutableString>
+The way she cranks it up</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1794,13 +1793,13 @@ The way she cranks it up</mutableString>
                     </view>
                     <navigationItem key="navigationItem" id="Paa-Of-PAD"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xMQ-Ir-GMS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2495" y="1684"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5rT-tH-P3A">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jRq-pK-96i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="jav-zx-MeB" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cds-3a-p08">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
@@ -1817,7 +1816,7 @@ The way she cranks it up</mutableString>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AIp-w6-EP4">
                                                 <rect key="frame" x="16" y="307" width="268" height="2656"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">David Guetta 
+                                                <string key="text">David Guetta 
 
 Titanium
 
@@ -1863,7 +1862,7 @@ But I won't fall, I am titanium
 You shoot me down
 But I won't fall, I am titanium
 You shoot me down
-But I won't fall, I am titanium, I am titanium</mutableString>
+But I won't fall, I am titanium, I am titanium</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1887,13 +1886,13 @@ But I won't fall, I am titanium, I am titanium</mutableString>
                     </view>
                     <navigationItem key="navigationItem" id="fpu-35-5As"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jRq-pK-96i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3228" y="1684"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rxb-Vw-Gnr">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mHO-Eo-KxH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="YpC-KB-q3D" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="y81-Hy-lJm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
@@ -1910,7 +1909,7 @@ But I won't fall, I am titanium, I am titanium</mutableString>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ev-jF-hTc">
                                                 <rect key="frame" x="16" y="470" width="268" height="2656"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">David Guetta 
+                                                <string key="text">David Guetta 
 
 Memories(feat.Kid Cudi)
 
@@ -1979,7 +1978,7 @@ yeah yeah
 (ooh ooh ooh ooh oooh oooh)
 yeah yeah
 (ooh ooh ooh ooh oooh oooh)
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -2003,13 +2002,13 @@ yeah yeah
                     </view>
                     <navigationItem key="navigationItem" id="OaJ-z7-6Kj"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mHO-Eo-KxH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4620" y="1684"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5HQ-ps-cNP">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yOg-LP-IaU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="5yp-uc-CEa" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rps-Zu-vlx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
@@ -2026,7 +2025,7 @@ yeah yeah
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JQR-J9-DY7">
                                                 <rect key="frame" x="16" y="593" width="268" height="2656"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">David Guetta 
+                                                <string key="text">David Guetta 
 
 Sexy Bitch - Explicit(feat. Akon)
 
@@ -2081,7 +2080,7 @@ Damn girl you'se a sexy bitch, damn girl
 Damn girl you'se a sexy bitch, a sexy bitch, a sexy bitch
 Damn girl you'se a sexy bitch, damn girl
 Damn girl you'se a sexy bitch, a sexy bitch, a sexy bitch
-Damn girl you'se a sexy bitch, damn you'se a sexy bitch</mutableString>
+Damn girl you'se a sexy bitch, damn you'se a sexy bitch</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -2105,6 +2104,7 @@ Damn girl you'se a sexy bitch, damn you'se a sexy bitch</mutableString>
                     </view>
                     <navigationItem key="navigationItem" id="PjB-z0-1Zj"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yOg-LP-IaU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5326" y="1684"/>
         </scene>
@@ -2113,9 +2113,12 @@ Damn girl you'se a sexy bitch, damn you'se a sexy bitch</mutableString>
         <image name="67189" width="320" height="320"/>
         <image name="DAVID_GUETTA_ONE+LOVE-616278" width="500" height="430"/>
         <image name="david-guetta-unity-tour" width="300" height="300"/>
+        <image name="house" catalog="system" width="64" height="54"/>
         <image name="huge_avatar" width="300" height="300"/>
         <image name="images" width="225" height="225"/>
         <image name="one-more-love-2-album-cover-sticker__84876.1539891613" width="1280" height="1280"/>
+        <image name="pencil" catalog="system" width="64" height="56"/>
+        <image name="play.circle.fill" catalog="system" width="64" height="60"/>
         <image name="play.fill" catalog="system" width="58" height="64"/>
     </resources>
 </document>
